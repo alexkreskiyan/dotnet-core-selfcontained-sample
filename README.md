@@ -1,5 +1,6 @@
 # How to launch and debug
  - run binary:
+
  ```
  .\bin\Debug\netcoreapp1.0\win10-x64\publish\test.exe
  ```
@@ -8,7 +9,8 @@
   * select project by `PID`
 
 # Notes
- - for debugging in VS Code set in *project.json*
- ```
+ - for debugging in VS Code set in __project.json__
+
+```
  "debugType": "portable"
  ```
